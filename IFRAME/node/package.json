@@ -1,0 +1,16 @@
+{
+  "name": "backend-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "csolarz",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "restify": "^8.4.0",
+    "restify-cors-middleware": "^1.1.1"
+  }
+}
