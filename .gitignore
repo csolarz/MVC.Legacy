@@ -207,3 +207,5 @@ UpgradeLog*.htm
 **/*.DesktopClient/ModelManifest.xml
 **/*.Server/GeneratedArtifacts
 **/*.Server/ModelManifest.xml
+
+*.lock

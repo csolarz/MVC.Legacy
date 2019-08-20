@@ -16,8 +16,6 @@ const server = restify.createServer({
 });
 
 server.pre(restify.pre.sanitizePath());
-server.pre(versioning({ prefix: '/' }));
-
 server.use(restify.plugins.gzipResponse());
 server.use(restify.plugins.acceptParser(server.acceptable));
 server.use(restify.plugins.queryParser());
@@ -59,7 +57,7 @@ const cors = corsMiddleware({
 server.pre(cors.preflight);
 server.use(cors.actual);
 
-const port = process.env.PORT || 3011;
+const port = process.env.PORT || 3030;
 
 server.listen(port, "node-template.com", () => {
   console.log("Server startup", { version: API_CURRENT_VERSION, date: moment.utc().format() });

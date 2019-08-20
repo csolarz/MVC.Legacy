@@ -42,6 +42,7 @@ namespace MVC.Legacy.Controllers
             Response.Redirect(System.Configuration.ConfigurationManager.AppSettings["MVC.Legacy.UrlRedirect"]);
         }
 
+        [Route("session-validation")]
         [AllowCrossSiteAttribute]
         public ActionResult SessionValidation()
         {
