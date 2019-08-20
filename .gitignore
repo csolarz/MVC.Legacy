@@ -209,3 +209,4 @@ UpgradeLog*.htm
 **/*.Server/ModelManifest.xml
 
 *.lock
+node_modules
