@@ -210,3 +210,4 @@ UpgradeLog*.htm
 
 *.lock
 node_modules
+IFRAME/react-app/package-lock.json
